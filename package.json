@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "fastify": "^3.22.1",
+    "fastify-cors": "^6.0.2",
+    "fastify-http-proxy": "^6.2.1",
     "path": "^0.12.7"
   }
 }
