@@ -1,18 +1,6 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "api/serverless.js",
-      "use": "@vercel/node",
-      "config": {
-        "helpers": false
-      }
-    }
-  ],
   "routes": [
-    {
-      "src": "/.*",
-      "dest": "/api/serverless.js"
-    }
+      {"src": "/(.*)","dest": "https://api.pixiv.moe/$1"}
   ]
 }
